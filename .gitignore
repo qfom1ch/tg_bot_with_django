@@ -1,0 +1,25 @@
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media/
+vendor/
+.env
+.env.dev
+.pytest_cache/
+.idea/
+db_fixtures.json
+.handler-saves
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# virtualenv
+.venv
+venv/
+ENV/
