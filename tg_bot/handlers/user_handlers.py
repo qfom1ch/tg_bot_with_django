@@ -1,7 +1,7 @@
 from telebot import TeleBot, types
 from telebot.types import Message
 
-from tg_bot.keboards.users_keyboards import markup_change_or_end
+from tg_bot.keyboards.users_keyboards import markup_change_or_end
 from tg_bot.lexicon import LEXICON
 from tg_bot.services import UserService
 

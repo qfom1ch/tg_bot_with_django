@@ -5,7 +5,7 @@ from telebot import TeleBot, types
 from telebot.types import CallbackQuery, Message
 from telegram_bot_calendar import LSTEP, WMonthTelegramCalendar
 
-from tg_bot.keboards.services_keyboars import markup_inline_choose_time
+from tg_bot.keyboards.services_keyboars import markup_inline_choose_time
 
 Service_user_dct = {}
 
