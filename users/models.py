@@ -4,6 +4,7 @@ from django.db import models
 
 class User(AbstractUser):
     username = None
+    last_name = models.CharField(max_length=255, blank=True, null=True)
     phone = models.CharField(max_length=255, unique=True, null=False, blank=False, verbose_name='Телефон')
     tg_user_id = models.IntegerField()
 

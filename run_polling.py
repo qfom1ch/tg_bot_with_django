@@ -36,7 +36,7 @@ def run():
         bot.register_message_handler(start_message, commands=['start'], pass_bot=True)
         # Users
         bot.register_message_handler(start_registration, commands=['registration'], pass_bot=True)
-        bot.register_message_handler(registration_stage_1, func=lambda message: message.text == 'Принять',
+        bot.register_message_handler(registration_stage_1, content_types=['contact'],
                                      pass_bot=True)
         bot.register_message_handler(change_first_name_stage_1, func=lambda message: message.text == 'Изменить имя',
                                      pass_bot=True)
