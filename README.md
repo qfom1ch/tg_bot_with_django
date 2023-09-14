@@ -10,3 +10,10 @@
  3. Примените миграции `python3 manage.py migrate` и используйте команду:
  
         python run_polling.py
+
+#### Screenshots:
+![ScreenShot](screenshots/bot_1.png)
+
+![ScreenShot](screenshots/bot_2.png)
+
+![ScreenShot](screenshots/bot_3.png)
